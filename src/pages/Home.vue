@@ -4,12 +4,14 @@
     <div class="grid grid-rows-1">
       <Carousel/>
     </div>
+    <ArrivalCardsList/>
   </div>
 </template>
 
 <script>
 import Navbar from '../components/Layout/Navbar.vue'
 import Carousel from '../components/Carousel.vue'
+import ArrivalCardsList from '../components/LastArrivals/ArrivalCardsList.vue'
 
 export default {
     name: 'Home',
@@ -17,6 +19,7 @@ export default {
     components: {
       Navbar,
       Carousel,
+      ArrivalCardsList,
     },
 }
 </script>
