@@ -1,10 +1,16 @@
 <template>
   <Splide :options="{ rewind: true, autoplay: true, type  : 'fade', width : '100vw', height: '93vh', }">
     <SplideSlide>
-      <img src="../assets/1.jpg" alt="Sample 1">
+      <img src="/img/carousel/1.jpg" alt="Sample 1">
     </SplideSlide>
     <SplideSlide>
-      <img src="../assets/2.jpg" alt="Sample 1">
+      <img src="/img/carousel/2.jpg" alt="Sample 2">
+    </SplideSlide>
+    <SplideSlide>
+      <img src="/img/carousel/3.jpg" alt="Sample 3">
+    </SplideSlide>
+    <SplideSlide>
+      <img src="/img/carousel/4.jpg" alt="Sample 4">
     </SplideSlide>
   </Splide>
 </template>
@@ -27,5 +33,24 @@ export default {
   .splide__slide img {
     width: 100%;
     height: auto;
+  }
+
+   
+  @media screen and (max-width: 1400px) {
+    .splide__slide img {
+      height: 100%;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .splide__slide img {
+      height: 100%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .splide__slide img {
+      height: 100%;
+    }
   }
 </style>
