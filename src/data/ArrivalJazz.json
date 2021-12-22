@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "2 Hot!",
+        "artist": "Peaches & Herb",
+        "pressInfos": "USA - 1978",
+        "imageFileName": "1.jpg",
+        "label": "Polydor"
+    },
+    {
+        "id": 2,
+        "name": "Everybody Loves The Sunshine",
+        "artist": "Roy Ayers Ubiquity",
+        "pressInfos": "USA - 1976",
+        "imageFileName": "2.jpg",
+        "label": "Polydor"
+    }, 
+    {
+        "id": 3,
+        "name": "The Spick & Span",
+        "artist": "Spick & Span",
+        "pressInfos": "Japan - 1979",
+        "imageFileName": "3.jpg",
+        "label": "Better Days"
+    }, 
+    {
+        "id": 4,
+        "name": "This Is My Love",
+        "artist": "Kimiko Kasai",
+        "pressInfos": "Japan - 1975",
+        "imageFileName": "4.jpg",
+        "label": "CBS/Sony"
+    }, 
+    {
+        "id": 5,
+        "name": "Magician",
+        "artist": "Erroll Garner",
+        "pressInfos": "Germany - 1974",
+        "imageFileName": "5.jpg",
+        "label": "BASF"
+    }, 
+    {
+        "id": 6,
+        "name": "Love Lives Forever",
+        "artist": "Minnie Riperton",
+        "pressInfos": "USA - 1980",
+        "imageFileName": "6.jpg",
+        "label": "Capitol Records"
+    }, 
+    {
+        "id": 10,
+        "name": "Insight",
+        "artist": "The Mike Mainieri Quartet",
+        "pressInfos": "USA - 1968",
+        "imageFileName": "10.jpg",
+        "label": "Solid State Records"
+    }, 
+    {
+        "id": 11,
+        "name": "Strumentali: Omaggi (Classico)",
+        "artist": "Giancarlo Gazzani",
+        "pressInfos": "Italy - 1988",
+        "imageFileName": "11.jpg",
+        "label": "Nuovo Repertorio Editoriale"
+    }, 
+    {
+        "id": 12,
+        "name": "Giorni D'Estate",
+        "artist": "Il Settimo Giorno",
+        "pressInfos": "Italy - 1976",
+        "imageFileName": "12.jpg",
+        "label": "Sab Mag"
+    }
+]
