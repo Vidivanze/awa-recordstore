@@ -1,0 +1,34 @@
+[
+    {
+        "id": 7,
+        "name": "The Infamous",
+        "artist": "Mobb Deep",
+        "pressInfos": "USA - 1995",
+        "imageFileName": "7.jpg",
+        "label": "Loud Records"
+    }, 
+    {
+        "id": 8,
+        "name": "It Was Written",
+        "artist": "Nas",
+        "pressInfos": "USA - 1996",
+        "imageFileName": "8.jpg",
+        "label": "Columbia"
+    }, 
+    {
+        "id": 9,
+        "name": "Alfredo",
+        "artist": "Freddie Gibbs & Alchemist",
+        "pressInfos": "USA - 2021",
+        "imageFileName": "9.jpg",
+        "label": "ESGN / ALC Records"
+    },
+    {
+        "id": 13,
+        "name": "Muddy Waters",
+        "artist": "Redman",
+        "pressInfos": "USA - 1996",
+        "imageFileName": "13.jpg",
+        "label": "Def jam Music Group Inc / Def Squad"
+    }
+]
