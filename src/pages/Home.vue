@@ -1,6 +1,8 @@
 <template>
-  <Navbar/>
-  <div class="content">
+  <div class="head dark">
+    <Navbar/>
+  </div>
+  <div class="content dark">
     <div class="grid grid-rows-1">
       <Carousel/>
     </div>
@@ -26,7 +28,6 @@ export default {
 
 <style>
  .content {
-    background: black;
     height: 100%;
     width: 100%;
   }
