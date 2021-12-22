@@ -9,10 +9,11 @@
   },
   "dependencies": {
     "@headlessui/vue": "^1.4.2",
+    "@heroicons/vue": "^1.0.5",
     "@splidejs/splide": "^3.6.9",
     "@splidejs/vue-splide": "^0.5.15",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
     "@tailwindcss/postcss7-compat": "^2.2.17",
-    "@vue-hero-icons/outline": "^1.7.2",
     "core-js": "^3.6.5",
     "vue": "^3.2.26"
   },
