@@ -24,6 +24,7 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Extra libs & components
+- Color Theme : [here](https://colorhunt.co/palette/1b262c0f4c753282b8bbe1fa)
 - Tailwindcss : [here](https://tailwindcss.com/)
 - Tailwind Navbar : [here](https://tailwindui.com/components/application-ui/navigation/navbars)
 - Carousel : [here](https://splidejs.com/)
