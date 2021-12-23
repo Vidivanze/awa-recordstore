@@ -30,5 +30,6 @@ export default {
  .content {
     height: 100%;
     width: 100%;
+    background-color: #1B262C;
   }
 </style>
