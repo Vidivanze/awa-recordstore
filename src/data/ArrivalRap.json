@@ -1,34 +1,82 @@
 [
     {
-        "id": 7,
+        "id": 1,
         "name": "The Infamous",
         "artist": "Mobb Deep",
         "pressInfos": "USA - 1995",
-        "imageFileName": "7.jpg",
+        "imageFileName": "1.jpg",
         "label": "Loud Records"
     }, 
     {
-        "id": 8,
+        "id": 2,
         "name": "It Was Written",
         "artist": "Nas",
-        "pressInfos": "USA - 1996",
-        "imageFileName": "8.jpg",
+        "pressInfos": "USA - 1996   ",
+        "imageFileName": "2.jpg",
         "label": "Columbia"
     }, 
     {
-        "id": 9,
+        "id": 3,
         "name": "Alfredo",
         "artist": "Freddie Gibbs & Alchemist",
         "pressInfos": "USA - 2021",
-        "imageFileName": "9.jpg",
+        "imageFileName": "3.jpg",
         "label": "ESGN / ALC Records"
     },
     {
-        "id": 13,
+        "id": 4,
         "name": "Muddy Waters",
         "artist": "Redman",
+        "pressInfos": "USA - 1996   ",
+        "imageFileName": "4.jpg",
+        "label": "Def Jam Music Group Inc"
+    },
+    {
+        "id": 5,
+        "name": "Ready To Die",
+        "artist": "The Notorious B.I.G.",
+        "pressInfos": "USA - 1994",
+        "imageFileName": "5.jpg",
+        "label": "Bad Boy Entertainment"
+    },
+    {
+        "id": 6,
+        "name": "Good Kid, M.A.A.d City",
+        "artist": "Kendrick Lamar",
+        "pressInfos": "USA - 2012",
+        "imageFileName": "6.jpg",
+        "label": "Interscope Records"
+    },
+    {
+        "id": 7,
+        "name": "Piñata",
+        "artist": "Freddie Gibbs & Madlib",
+        "pressInfos": "USA - 2014",
+        "imageFileName": "7.jpg",
+        "label": "Madlib Invazion"
+    },
+    {
+        "id": 8,
+        "name": "Damn.",
+        "artist": "Kendrick Lamar",
         "pressInfos": "USA - 1996",
-        "imageFileName": "13.jpg",
-        "label": "Def jam Music Group Inc / Def Squad"
+        "imageFileName": "8.jpg",
+        "label": "Top Dawg Entertainment"
+    },
+    {
+        "id": 9,
+        "name": "The Chronic",
+        "artist": "Dr. Dre",
+        "pressInfos": "USA - 2001",
+        "imageFileName": "9.jpg",
+        "label": "Death Row Records"
+    },
+    {
+        "id": 10,
+        "name": "Madvillainy",
+        "artist": "Doom* And Madlib",
+        "pressInfos": "USA - 2004",
+        "imageFileName": "10.jpg",
+        "label": "Stones Throw Records"
     }
 ]

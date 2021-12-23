@@ -3,7 +3,7 @@
         "id": 1,
         "name": "2 Hot!",
         "artist": "Peaches & Herb",
-        "pressInfos": "USA - 1978",
+        "pressInfos": "USA  - 1978",
         "imageFileName": "1.jpg",
         "label": "Polydor"
     },
@@ -48,27 +48,35 @@
         "label": "Capitol Records"
     }, 
     {
-        "id": 10,
+        "id": 7,
         "name": "Insight",
         "artist": "The Mike Mainieri Quartet",
         "pressInfos": "USA - 1968",
-        "imageFileName": "10.jpg",
+        "imageFileName": "7.jpg",
         "label": "Solid State Records"
     }, 
     {
-        "id": 11,
+        "id": 8,
         "name": "Strumentali: Omaggi (Classico)",
         "artist": "Giancarlo Gazzani",
         "pressInfos": "Italy - 1988",
-        "imageFileName": "11.jpg",
+        "imageFileName": "8.jpg",
         "label": "Nuovo Repertorio Editoriale"
     }, 
     {
-        "id": 12,
+        "id": 9,
         "name": "Giorni D'Estate",
         "artist": "Il Settimo Giorno",
         "pressInfos": "Italy - 1976",
-        "imageFileName": "12.jpg",
+        "imageFileName": "9.jpg",
         "label": "Sab Mag"
+    }, 
+    {
+        "id": 10,
+        "name": "Erroll Garner Plays Misty",
+        "artist": "Erroll Garner",
+        "pressInfos": "US - 1961",
+        "imageFileName": "10.jpg",
+        "label": "Mercury"
     }
 ]
