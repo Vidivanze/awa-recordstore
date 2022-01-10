@@ -24,6 +24,10 @@
         </div>
       </div>
     </div>
+
+    <div>
+      <Contact/>
+    </div>
   </div>
   
 </template>
@@ -32,6 +36,7 @@
 import Navbar from '../components/Layout/Navbar.vue'
 import Carousel from '../components/Carousel.vue'
 import ArrivalCardsList from '../components/LastArrivals/ArrivalCardsList.vue'
+import Contact from '../components/Contact.vue';
 import '../../node_modules/animate.css/animate.min.css';
 import '../components/Reveal.js';
 
@@ -43,6 +48,8 @@ export default {
     Navbar,
     Carousel,
     ArrivalCardsList,
+    Contact,
+  },  
 }
 </script>
 
