@@ -3,18 +3,18 @@
 </template>
 
 <script>
-
 import Home from './pages/Home.vue'
 
 export default {
   name: 'App',
   components: {
     Home
-  }
+  },  
 }
 </script>
 
 <style>
+
 #app {
   font-family: Open Sans Light, sans-serif;
   -webkit-font-smoothing: antialiased;
