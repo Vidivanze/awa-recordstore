@@ -33,6 +33,8 @@ import Navbar from '../components/Layout/Navbar.vue'
 import Carousel from '../components/Carousel.vue'
 import ArrivalCardsList from '../components/LastArrivals/ArrivalCardsList.vue'
 import '../../node_modules/animate.css/animate.min.css';
+import '../components/Reveal.js';
+
 
 export default {
   name: 'Home',
@@ -41,30 +43,6 @@ export default {
     Navbar,
     Carousel,
     ArrivalCardsList,
-  },
-
-  setup() {
-
-    //reveal on scroll
-    function reveal() {
-      var reveals = document.querySelectorAll(".reveal");
-
-      for (var i = 0; i < reveals.length; i++) {
-        var windowHeight = window.innerHeight;
-        var elementTop = reveals[i].getBoundingClientRect().top;
-        var elementVisible = 150;
-
-        if (elementTop < windowHeight - elementVisible) {
-          reveals[i].classList.add("active");
-        } else {
-          reveals[i].classList.remove("active");
-        }
-      }
-    }
-
-    window.addEventListener("scroll", reveal);
-  }
-  
 }
 </script>
 
@@ -76,7 +54,7 @@ export default {
   }
   
   .title{
-    color: #BBE1FA;
+    color: #FFF;
   }
 
   .cards-list{
