@@ -60,8 +60,6 @@ export default {
   },
 
   data() {
-    console.log(ArrivalJazz)
-    console.log(ArrivalRap)
     return {
       arrival_jazz: ArrivalJazz,
       arrival_rap: ArrivalRap,
