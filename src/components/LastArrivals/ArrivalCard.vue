@@ -53,7 +53,7 @@ export default {
     min-height: 247px;
     width: 100%;
     height: 100%;
-    transition: transform 0.4s;
+    transition: transform 0.7s;
     transform-style: preserve-3d;
   }
 
@@ -67,7 +67,7 @@ export default {
 
   .card:hover .card-content{
     transform: rotateY(180deg);
-    transition: transform 0.3s;
+    transition: transform 0.6s;
   }
 
   .card-front {
