@@ -11,7 +11,7 @@
         "id": 2,
         "name": "It Was Written",
         "artist": "Nas",
-        "pressInfos": "USA - 1996   ",
+        "pressInfos": "USA - 1996",
         "imageFileName": "2.jpg",
         "label": "Columbia"
     }, 
@@ -74,7 +74,7 @@
     {
         "id": 10,
         "name": "Madvillainy",
-        "artist": "Doom* And Madlib",
+        "artist": "DOOM And Madlib",
         "pressInfos": "USA - 2004",
         "imageFileName": "10.jpg",
         "label": "Stones Throw Records"
