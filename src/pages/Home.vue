@@ -32,6 +32,7 @@
 import Navbar from '../components/Layout/Navbar.vue'
 import Carousel from '../components/Carousel.vue'
 import ArrivalCardsList from '../components/LastArrivals/ArrivalCardsList.vue'
+import '../../node_modules/animate.css/animate.min.css';
 
 export default {
   name: 'Home',
