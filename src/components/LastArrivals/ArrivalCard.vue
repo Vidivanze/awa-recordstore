@@ -58,7 +58,7 @@ export default {
   }
 
   .card-title {
-    color: #BBE1FA;
+    color: #61befb;
   }
 
   .card-text {
@@ -84,7 +84,7 @@ export default {
     line-height: 60px;
     backface-visibility: hidden;  
     color: #fff;  
-    background-color: #0F4C75;  
+    background-color: #1B262C;  
     transform: rotateY(180deg);
     border-right: 6px solid #3282B8;
     border-bottom: 6px solid #3282B8;
