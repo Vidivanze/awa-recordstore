@@ -13,7 +13,7 @@
         </div>
         <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
           <div class="flex-shrink-0 flex items-center">
-            <h1 class="title text-xl">AWA Record Store</h1>
+            <h1 class="nav_title text-xl">AWA Record Store</h1>
           </div>
           <div class="hidden sm:block sm:ml-6">
             <div class="flex space-x-4">
@@ -37,7 +37,7 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 import { MenuIcon, XIcon } from '@heroicons/vue/outline'
 
 const navigation = [
-  { name: 'Contact', href: '#', current: false },
+  { name: 'Contact', href: '#contact', current: false },
 ]
 
 export default {
@@ -60,8 +60,8 @@ export default {
   .navbar {
     background-color: #1B262C;
   }
-  .title{
+  .nav_title{
     font-weight: 500;
-    color: #BBE1FA;
+    color: #61befb;
   }
 </style>
