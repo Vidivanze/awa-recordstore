@@ -11,15 +11,14 @@
     <div class="cards-list">
       <div class="max-w-2xl mx-auto px-4 sm:py-12 sm:px-6 lg:max-w-7xl lg:px-8">
         <div class="list-container reveal fade-right">
-          <h1 class="mb-2 text-4xl pt-5 pb-5 text-left title">Derniers arrivages</h1>
-          <h2 class="mt-5 mb-5 text-3xl pt-6 text-left title">Jazz</h2>
+          <h2 class="mt-5 mb-5 text-3xl pt-6 text-left title">Arrivages Jazz</h2>
           <ArrivalCardsList genre="Jazz"/>
         </div>
       </div>
 
       <div class="max-w-2xl mx-auto px-4 sm:py-12 sm:px-6 lg:max-w-7xl lg:px-8">
         <div class="list-container reveal fade-right">
-          <h2 class="mb-5 text-3xl text-left title">Rap & Hip-Hop</h2>
+          <h2 class="mb-5 text-3xl text-left title">Arrivages Rap & Hip-Hop</h2>
           <ArrivalCardsList genre="Rap"/>
         </div>
       </div>
@@ -61,7 +60,7 @@ export default {
   }
   
   .title{
-    color: #FFF;
+    color: #61befb;
   }
 
   .cards-list{
