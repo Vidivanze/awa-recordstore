@@ -88,7 +88,7 @@ export default {
     transform: rotateY(180deg);
     border-right: 6px solid #3282B8;
     border-bottom: 6px solid #3282B8;
-    box-shadow: 6px 6px #3282B8;
+    box-shadow: 6px 6px #1B262C;
   }
 
 
