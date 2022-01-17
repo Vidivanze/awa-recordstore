@@ -92,7 +92,7 @@ export default {
   }
 
 
-  /*Media querries */
+  /*Media querries for the cards size*/
 
    @media screen and (min-width: 1400px) {
     .card-content, .card-back {
