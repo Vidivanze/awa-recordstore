@@ -4,6 +4,10 @@
 ```
 npm install
 ```
+#### If tailwind has issues with postcss run this command
+```
+npm install tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
+```
 
 ### Compiles and hot-reloads for development
 ```
