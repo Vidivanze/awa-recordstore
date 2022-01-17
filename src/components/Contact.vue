@@ -1,7 +1,7 @@
 <template>
   <div id="contact" class="contact">
     
-    <div class="max-w-2xl mx-auto px-10 lg:py-96 sm:py-96 sm:px-6 lg:max-w-7xl lg:px-16">
+    <div class="max-w-2xl mx-auto px-10 lg:py-7 sm:py-96 sm:px-6 lg:max-w-7xl lg:px-16">
       <div class="grid grid-cols-2 gap-y-10 sm:grid-cols-1 gap-x-10 lg:grid-cols-2 xl:grid-cols-2 xl:gap-x-8">
         <div class="card reveal fade-top">
           <a href="#contact" class="block p-11 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
