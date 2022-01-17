@@ -4,7 +4,7 @@
     pauseOnHover: false,
     rewind: true, 
     interval: '4000', 
-    type: 'fade', 
+    type: 'slide', 
     width: '100vw', 
     height: '93vh', 
 		cover: true,
