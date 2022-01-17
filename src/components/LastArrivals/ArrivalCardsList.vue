@@ -37,7 +37,6 @@ export default {
   data(props) {
     //Choose the source of the list depending on the parameter
     if(props.genre == "Jazz"){
-      console.log("tto")
       return {
         arrival_list: ArrivalJazz,
       }
