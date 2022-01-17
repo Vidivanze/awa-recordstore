@@ -12,7 +12,7 @@
           </DisclosureButton>
         </div>
         <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-          <div class="flex-shrink-0 flex items-center">
+          <div class="flex-shrink-0 flex items-center"><img class="logo" src="/img/logo.png"/>
             <h1 class="nav_title text-xl">AWA Record Store</h1>
           </div>
           <div class="hidden sm:block sm:ml-6">
@@ -63,5 +63,11 @@ export default {
   .nav_title{
     font-weight: 500;
     color: #61befb;
+  }
+
+  
+  .logo {
+    height: 4%;
+    padding-right: 2%;
   }
 </style>
