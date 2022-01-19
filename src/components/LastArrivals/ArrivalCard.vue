@@ -15,7 +15,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div>  
   <h3 class="mt-4 text-lg card-title">
     {{ name }}
   </h3>
