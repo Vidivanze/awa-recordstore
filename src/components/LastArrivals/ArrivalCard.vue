@@ -9,6 +9,9 @@
           <strong class="card-text">{{ artist }}</strong>
           <h2 class="card-text">{{ label }}</h2>
           <h2 class="card-text">{{ pressInfos }}</h2>
+          
+          <font-awesome-icon class="back-icon" size="2x" icon="record-vinyl" />
+
         </div>
       </div>
     </div>
@@ -81,7 +84,7 @@ export default {
     width: 100%;
     height: 100%;
     text-align: center;
-    line-height: 60px;
+    line-height: 53px;
     backface-visibility: hidden;  
     color: #fff;  
     background-color: #1B262C;  
@@ -89,6 +92,10 @@ export default {
     border-right: 6px solid #3282B8;
     border-bottom: 6px solid #3282B8;
     box-shadow: 6px 6px #1B262C;
+  }
+
+  .back-icon {
+    color: #3282B8;
   }
 
 
