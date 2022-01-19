@@ -2,7 +2,7 @@
 <template>
   <Disclosure as="nav" class="navbar" v-slot="{ open }">
     <div class="max-w-8xl mx-auto sm:px-6 lg:px-4">
-      <div class="relative flex items-center justify-between h-16">
+      <div class="relative flex items-center justify-between h-16 animate__animated animate__fadeInDown ">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
           <!-- Mobile menu button-->
           <DisclosureButton class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -12,7 +12,8 @@
           </DisclosureButton>
         </div>
         <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-          <div class="flex-shrink-0 flex items-center"><img class="logo" src="/img/logo.png"/>
+          <div class="flex-shrink-0 flex items-center">
+            <font-awesome-icon class="logo" size="3x" icon="record-vinyl" />
             <h1 class="nav_title text-xl">AWA Record Store</h1>
           </div>
           <div class="hidden sm:block sm:ml-6">
@@ -61,13 +62,13 @@ export default {
     background-color: #1B262C;
   }
   .nav_title{
+    padding-left: 9px;
     font-weight: 500;
     color: #61befb;
   }
 
-  
   .logo {
-    height: 4%;
-    padding-right: 2%;
+    color: #61befb;
+    height: 34px;
   }
 </style>
