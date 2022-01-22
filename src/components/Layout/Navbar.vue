@@ -2,7 +2,7 @@
 <template>
   <Disclosure as="nav" class="navbar" v-slot="{ open }">
     <div class="max-w-8xl mx-auto sm:px-6 lg:px-4">
-      <div class="relative flex items-center justify-between h-16 animate__animated animate__fadeInDown ">
+      <div class="relative flex items-center justify-between h-16 animate__animated animate__fadeInDown">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
           <!-- Mobile menu button-->
           <DisclosureButton class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
