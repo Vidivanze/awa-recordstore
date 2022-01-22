@@ -3,7 +3,10 @@
     <div class="card">
       <div class="card-content">
         <div class="card-front">
-          <img :src="`/img/products/` + genre + '/' + imageSource" class="w-full h-full object-center object-cover group-hover:opacity-75 hover:object-scale-down" />
+          <img 
+            :src="`/img/products/` + genre + '/' + imageSource" 
+            class="w-full h-full object-center object-cover group-hover:opacity-75 hover:object-scale-down"
+          />
         </div>
         <div class="card-back">
           <strong class="card-text">{{ artist }}</strong>
