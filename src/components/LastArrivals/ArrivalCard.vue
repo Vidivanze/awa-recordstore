@@ -10,7 +10,7 @@
           <h2 class="card-text">{{ label }}</h2>
           <h2 class="card-text">{{ pressInfos }}</h2>
           
-          <font-awesome-icon class="back-icon" size="2x" icon="record-vinyl" />
+          <font-awesome-icon class="logo" size="2x" icon="record-vinyl" />
 
         </div>
       </div>
@@ -76,6 +76,7 @@ export default {
   .card-front {
     position: absolute;
     width: 100%;
+    height: 100%;
     backface-visibility: hidden;  
     color: #fff;  
   }
@@ -95,7 +96,7 @@ export default {
   }
 
   .back-icon {
-    color: #3282B8;
+    color: #3282B8 !important;
   }
 
 
@@ -164,25 +165,64 @@ export default {
   @media screen and (max-width: 1022px) {
     .card-content, .card-back {
       min-height: 300px;
+      line-height: 69px;
     }
   }
 
   @media screen and (max-width: 800px) {
     .card-content, .card-back {
       min-height: 296px;
+      line-height: 69px;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .card-content, .card-back {
+      min-height: 288px;
+      line-height: 69px;
     }
   }
 
   @media screen and (max-width: 639px) {
     .card-content, .card-back {
-      min-height: 512px;
+      min-height: 570px;
+      line-height: 125px;
     }
   }
 
-   @media screen and (max-width: 520px) {
+  @media screen and (max-width: 600px) {
     .card-content, .card-back {
-      min-height: 474px;
+      min-height: 568px;
+      line-height: 139px;
     }
+  }
+
+  @media screen and (max-width: 575px) {
+    .card-content, .card-back {
+      min-height: 541px;
+      line-height: 130px;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    .card-content, .card-back {
+      min-height: 480px;
+      line-height: 112px;
+    } 
+  }
+
+  @media screen and (max-width: 530px) {
+    .card-content, .card-back {
+      min-height: 480px;
+      line-height: 112px;
+    } 
+  }
+
+  @media screen and (max-width: 520px) {
+    .card-content, .card-back {
+      min-height: 433px;
+      line-height: 105px;
+    } 
   }
 
   @media screen and (max-width: 450px) {

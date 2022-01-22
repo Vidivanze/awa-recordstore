@@ -10,7 +10,7 @@
     
     <!-- Listes des vinyles par genre -->
     <div class="cards-list">
-      <div class="max-w-2xl mx-auto px-4 sm:py-12 sm:px-6 lg:max-w-7xl lg:px-8">
+      <div class="max-w-2xl mx-auto px-4 xs:py-14 sm:py-12 sm:px-6 lg:max-w-7xl lg:px-8">
         <div class="list-container reveal fade-right">
           <h2 class="mt-5 mb-5 text-3xl pt-6 text-left title">Arrivages Jazz 
             <font-awesome-icon class="logo" size="2x" icon="music" />
@@ -19,7 +19,7 @@
         </div>
       </div>
 
-      <div class="max-w-2xl mx-auto px-4 sm:py-12 sm:px-6 lg:max-w-7xl lg:px-8">
+      <div class="max-w-2xl mx-auto px-4 xs:py-14 sm:py-12 sm:px-6 lg:max-w-7xl lg:px-8">
         <div class="list-container reveal fade-left">
           <h2 class="mb-5 text-3xl text-left title">Arrivages Rap & Hip-Hop
             <font-awesome-icon class="logo" size="2x" icon="music" />
