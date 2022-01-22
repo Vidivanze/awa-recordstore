@@ -4,11 +4,12 @@
     pauseOnHover: false,
     rewind: true, 
     interval: '4000', 
-    type: 'slide', 
+    type: 'fade', 
     width: '100vw', 
     height: '93vh', 
 		cover: true,
-		heightRatio: 0.5, }">
+		heightRatio: 0.5,
+    easing: 'linear', }">
     <SplideSlide>
       <img src="/img/carousel/1.jpg" alt="Sample 1">
     </SplideSlide>
