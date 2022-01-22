@@ -1,4 +1,6 @@
 # awa-recordstore
+##
+[Présentation du projet](https://github.com/Vidivanze/awa-recordstore/blob/master/docs/pr%C3%A9sentation.md)
 
 ## Project setup
 ```
