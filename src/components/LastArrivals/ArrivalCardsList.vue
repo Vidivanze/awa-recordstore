@@ -10,6 +10,7 @@
           :pressInfos="arrival.pressInfos" 
           :imageSource="arrival.imageFileName" 
           :label="arrival.label"
+          :songs="arrival.songs"
         ></arrival-card>  
       </div>
     </template>

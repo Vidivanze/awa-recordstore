@@ -13,9 +13,9 @@
           <h2 class="card-text">{{ label }}</h2>
           <h2 class="card-text">{{ pressInfos }}</h2>
 
-          <font-awesome-icon class="back-icon" size="2x" icon="record-vinyl" />
-
-          <button id="show-modal" @click="showModal = true">Show Modal</button>
+          <button id="show-modal" @click="showModal = true">
+            <font-awesome-icon class="back-icon" size="2x" icon="info-circle" />
+          </button>
         </div>
       </div>
     </div>
@@ -32,7 +32,16 @@
       default content
     -->
     <template v-slot:header>
-      <h3>custom header</h3>
+      <h2>Titres</h2>
+    </template>
+    <template v-slot:body>
+      <template v-for="song in songs" :key="song.id">
+      <h3>{{song}}</h3>
+      </template>
+    </template>
+    
+    <template v-slot:footer>
+      
     </template>
   </modal>
   </transition>
@@ -53,17 +62,11 @@ export default {
     pressInfos: Number,
     imageSource: String,
     label: String,
+    songs: Array,
   },
 
   components: {
     Modal,
-  },
-
-  setup(){
-    const image = true
-    return {
-      image,
-    }
   },
 
   data() {
@@ -130,6 +133,9 @@ export default {
     color: #3282B8 !important;
   }
 
+  #show-modal{
+    display: inline-flex;
+  }
 
   /*Media querries for the cards size*/
 
