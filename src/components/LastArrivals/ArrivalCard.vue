@@ -3,20 +3,23 @@
     <div class="card">
       <div class="card-content">
         <div class="card-front">
-          <img :src="`/img/products/` + genre + '/' + imageSource" class="w-full h-full object-center object-cover group-hover:opacity-75 hover:object-scale-down" />
+          <img
+            :src="`/img/products/` + genre + '/' + imageSource"
+            class="w-full h-full object-center object-cover group-hover:opacity-75 hover:object-scale-down"
+          />
         </div>
         <div class="card-back">
           <strong class="card-text">{{ artist }}</strong>
           <h2 class="card-text">{{ label }}</h2>
           <h2 class="card-text">{{ pressInfos }}</h2>
-        
+
           <font-awesome-icon class="back-icon" size="2x" icon="record-vinyl" />
-          
+
           <button id="show-modal" @click="showModal = true">Show Modal</button>
         </div>
       </div>
     </div>
-  </div>  
+  </div>
   <h3 class="mt-4 text-lg card-title">
     {{ name }}
   </h3>
@@ -43,7 +46,7 @@ import Modal from '../Modal.vue';
 export default {
   name: 'ArrivalCard',
 
-  props: { 
+  props: {
     name: String,
     genre: String,
     artist: String,
@@ -62,7 +65,7 @@ export default {
       image,
     }
   },
-  
+
   data() {
     return {
       showModal: false
@@ -74,10 +77,10 @@ export default {
 
 <style>
   .card{
-    perspective: 600px; 
+    perspective: 600px;
     text-align: center;
   }
-  .card-content {   
+  .card-content {
     position: relative;
     object-fit: contain;
     min-width: 100%;
@@ -104,8 +107,9 @@ export default {
   .card-front {
     position: absolute;
     width: 100%;
-    backface-visibility: hidden;  
-    color: #fff;  
+    height: 100%;
+    backface-visibility: hidden;
+    color: #fff;
   }
 
   .card-back {
@@ -113,9 +117,9 @@ export default {
     height: 100%;
     text-align: center;
     line-height: 53px;
-    backface-visibility: hidden;  
-    color: #fff;  
-    background-color: #1B262C;  
+    backface-visibility: hidden;
+    color: #fff;
+    background-color: #1B262C;
     transform: rotateY(180deg);
     border-right: 6px solid #3282B8;
     border-bottom: 6px solid #3282B8;
@@ -123,7 +127,7 @@ export default {
   }
 
   .back-icon {
-    color: #3282B8;
+    color: #3282B8 !important;
   }
 
 
@@ -152,7 +156,7 @@ export default {
       min-height: 265px;
     }
   }
-  
+
   @media screen and (max-width: 1200px) {
     .card-content, .card-back {
       min-height: 244px;
@@ -192,24 +196,63 @@ export default {
   @media screen and (max-width: 1022px) {
     .card-content, .card-back {
       min-height: 300px;
+      line-height: 69px;
     }
   }
 
   @media screen and (max-width: 800px) {
     .card-content, .card-back {
       min-height: 296px;
+      line-height: 69px;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .card-content, .card-back {
+      min-height: 288px;
+      line-height: 69px;
     }
   }
 
   @media screen and (max-width: 639px) {
     .card-content, .card-back {
-      min-height: 512px;
+      min-height: 570px;
+      line-height: 125px;
     }
   }
 
-   @media screen and (max-width: 520px) {
+  @media screen and (max-width: 600px) {
     .card-content, .card-back {
-      min-height: 474px;
+      min-height: 568px;
+      line-height: 139px;
+    }
+  }
+
+  @media screen and (max-width: 575px) {
+    .card-content, .card-back {
+      min-height: 541px;
+      line-height: 130px;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    .card-content, .card-back {
+      min-height: 480px;
+      line-height: 112px;
+    }
+  }
+
+  @media screen and (max-width: 530px) {
+    .card-content, .card-back {
+      min-height: 480px;
+      line-height: 112px;
+    }
+  }
+
+  @media screen and (max-width: 520px) {
+    .card-content, .card-back {
+      min-height: 433px;
+      line-height: 105px;
     }
   }
 

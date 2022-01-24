@@ -1,5 +1,4 @@
 <template>
-
   <div class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-4 xl:grid-cols-5 xl:gap-x-8">
     <template v-for="arrival in arrival_list" :key="arrival.id">
       <div class="group">
