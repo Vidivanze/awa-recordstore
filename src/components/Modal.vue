@@ -11,7 +11,7 @@
 
           <div class="modal-body">
             <slot name="body">
-              default body
+              Les titres n'ont pas encore été ajoutés :(
             </slot>
           </div>
 

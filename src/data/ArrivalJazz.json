@@ -62,17 +62,7 @@
         "artist": "Kimiko Kasai",
         "pressInfos": "Japan - 1975",
         "imageFileName": "4.jpg",
-        "label": "CBS/Sony",
-        "songs" : {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": "",
-            "5": "",
-            "6": "",
-            "7": "",
-            "8": ""
-        }
+        "label": "CBS/Sony"
     }, 
     {
         "id": 5,
@@ -80,17 +70,7 @@
         "artist": "Erroll Garner",
         "pressInfos": "Germany - 1974",
         "imageFileName": "5.jpg",
-        "label": "BASF",
-        "songs" : {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": "",
-            "5": "",
-            "6": "",
-            "7": "",
-            "8": ""
-        }
+        "label": "BASF"
     }, 
     {
         "id": 6,
@@ -98,17 +78,7 @@
         "artist": "Minnie Riperton",
         "pressInfos": "USA - 1980",
         "imageFileName": "6.jpg",
-        "label": "Capitol Records",
-        "songs" : {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": "",
-            "5": "",
-            "6": "",
-            "7": "",
-            "8": ""
-        }
+        "label": "Capitol Records"
     }, 
     {
         "id": 7,
@@ -116,17 +86,7 @@
         "artist": "The Mike Mainieri Quartet",
         "pressInfos": "USA - 1968",
         "imageFileName": "7.jpg",
-        "label": "Solid State Records",
-        "songs" : {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": "",
-            "5": "",
-            "6": "",
-            "7": "",
-            "8": ""
-        }
+        "label": "Solid State Records"
     }, 
     {
         "id": 8,
@@ -134,17 +94,7 @@
         "artist": "Giancarlo Gazzani",
         "pressInfos": "Italy - 1988",
         "imageFileName": "8.jpg",
-        "label": "Nuovo Repertorio Editoriale",
-        "songs" : {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": "",
-            "5": "",
-            "6": "",
-            "7": "",
-            "8": ""
-        }
+        "label": "Nuovo Repertorio Editoriale"
     }, 
     {
         "id": 9,
@@ -152,17 +102,7 @@
         "artist": "Il Settimo Giorno",
         "pressInfos": "Italy - 1976",
         "imageFileName": "9.jpg",
-        "label": "Sab Mag",
-        "songs" : {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": "",
-            "5": "",
-            "6": "",
-            "7": "",
-            "8": ""
-        }
+        "label": "Sab Mag"
     }, 
     {
         "id": 10,
@@ -170,16 +110,6 @@
         "artist": "Erroll Garner",
         "pressInfos": "US - 1961",
         "imageFileName": "10.jpg",
-        "label": "Mercury",
-        "songs" : {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": "",
-            "5": "",
-            "6": "",
-            "7": "",
-            "8": ""
-        }
+        "label": "Mercury"
     }
 ]
