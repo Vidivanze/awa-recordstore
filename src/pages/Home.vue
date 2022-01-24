@@ -28,6 +28,7 @@
     <div>
       <Contact/>
     </div>
+    
   </div>
   
 </template>

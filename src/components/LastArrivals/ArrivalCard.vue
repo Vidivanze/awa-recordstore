@@ -9,9 +9,10 @@
           <strong class="card-text">{{ artist }}</strong>
           <h2 class="card-text">{{ label }}</h2>
           <h2 class="card-text">{{ pressInfos }}</h2>
-          
+        
           <font-awesome-icon class="back-icon" size="2x" icon="record-vinyl" />
-
+          
+          <button id="show-modal" @click="showModal = true">Show Modal</button>
         </div>
       </div>
     </div>
@@ -19,12 +20,29 @@
   <h3 class="mt-4 text-lg card-title">
     {{ name }}
   </h3>
+
+  <!-- use the modal component, pass in the prop -->
+  <transition name="modal">
+  <modal v-bind="$attrs" v-if="showModal" @close="showModal = false">
+    <!--
+      you can use custom content here to overwrite
+      default content
+    -->
+    <template v-slot:header>
+      <h3>custom header</h3>
+    </template>
+  </modal>
+  </transition>
 </template>
 
+
+
 <script>
+import Modal from '../Modal.vue';
 
 export default {
   name: 'ArrivalCard',
+
   props: { 
     name: String,
     genre: String,
@@ -34,10 +52,20 @@ export default {
     label: String,
   },
 
+  components: {
+    Modal,
+  },
+
   setup(){
     const image = true
     return {
       image,
+    }
+  },
+  
+  data() {
+    return {
+      showModal: false
     }
   },
 }

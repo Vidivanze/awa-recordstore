@@ -8,4 +8,5 @@ import FontAwesomeIcon  from "./assets/FontAwesomeIcon";
 
 createApp(App)
 .component("font-awesome-icon", FontAwesomeIcon)
+.component("modal", { template: "#modal-template", })
 .mount('#app')
