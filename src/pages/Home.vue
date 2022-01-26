@@ -8,7 +8,7 @@
       <Carousel/>
     </div>
     
-    <!-- Listes des vinyles par genre -->
+    <!-- Listes des arrivages par genre -->
     <div class="cards-list">
       <div class="max-w-2xl mx-auto px-4 xs:py-14 sm:py-12 sm:px-6 lg:max-w-7xl lg:px-8">
         <div class="list-container reveal fade-right">
