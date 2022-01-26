@@ -22,7 +22,6 @@ import ArrivalCard from './ArrivalCard.vue'
 import ArrivalJazz from '../../data/ArrivalJazz.json'
 import ArrivalRap from '../../data/ArrivalRap.json'
 
-
 export default {
   name: 'ArrivalCardsList',
 
