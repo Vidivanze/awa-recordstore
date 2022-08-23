@@ -1,5 +1,5 @@
 # awa-recordstore
-
+Projet Vue et Tailwind visant à mettre en place des annimations.
 [Présentation du projet](https://github.com/Vidivanze/awa-recordstore/blob/master/docs/AWA%20Record%20Store.pdf)
 ##
 
