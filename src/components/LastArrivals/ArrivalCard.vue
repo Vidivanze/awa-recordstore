@@ -23,7 +23,7 @@
   <h3 class="mt-4 text-lg card-title">
     {{ name }}
   </h3>
-  
+
   <!-- use the modal component, pass in the prop -->
   <transition name="modal">
   <modal v-bind="$attrs" v-if="showModal" @close="showModal = false">
@@ -89,6 +89,7 @@ export default {
     object-fit: contain;
     min-width: 100%;
     min-height: 247px;
+    max-height: 10px;
     width: 100%;
     height: 100%;
     transition: transform 0.7s;
