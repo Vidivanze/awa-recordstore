@@ -4,7 +4,7 @@
       <div class="card-content">
         <div class="card-front">
           <img
-            :src="`/img/products/` + genre + '/' + imageSource"
+            :src="filePath"
             class="w-full h-full object-center object-cover group-hover:opacity-75 hover:object-scale-down"
           />
         </div>
@@ -23,7 +23,7 @@
   <h3 class="mt-4 text-lg card-title">
     {{ name }}
   </h3>
-
+  {{ filePath }}
   <!-- use the modal component, pass in the prop -->
   <transition name="modal">
   <modal v-bind="$attrs" v-if="showModal" @close="showModal = false">
@@ -71,7 +71,8 @@ export default {
 
   data() {
     return {
-      showModal: false
+      showModal: false,
+      filePath: '/img/products/'+ this.genre + '/' + this.imageSource,
     }
   },
 }
