@@ -23,7 +23,7 @@
   <h3 class="mt-4 text-lg card-title">
     {{ name }}
   </h3>
-  {{ filePath }}
+  
   <!-- use the modal component, pass in the prop -->
   <transition name="modal">
   <modal v-bind="$attrs" v-if="showModal" @close="showModal = false">
